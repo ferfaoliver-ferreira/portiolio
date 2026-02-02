@@ -9,61 +9,31 @@ export default function AboutSection() {
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold mb-6">Sobre mim</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Olá, sou Gabriel Falcão.
+                Em transição de carreira para área de tecnologia da informação,
+                mais especificamente em AWS Cloud e IA.
               </p>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Sou Desenvolvedor Full Stack Júnior e estudante de Sistemas de
-                Informação (5º semestre), atualmente em transição estratégica
-                para Cloud Architecture.
+                Tenho experiência em atendimento ao público na área da saúde há
+                18 anos, atuando em minha clínica própria, tanto no
+                gerenciamento de colaboradores como atendendo os pacientes, no
+                qual me dediquei muito em conhecimento técnico e relacionamento
+                interpessoal.
               </p>
-
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Atualmente, estou me especializando em Cloud Computing através
-                da Escola da Nuvem, onde aprofundo meus conhecimentos em
-                arquiteturas escaláveis, seguras e resilientes utilizando
-                serviços AWS.
+                Atualmente, sou aluna da formação AWS Re/Start na Escola da
+                Nuvem. Estou indo além da teoria e aplicando conhecimentos
+                práticos em serviços fundamentais como EC2 (computação), RDS
+                (banco de dados) e S3 (armazenamento), preparando-me para a
+                certificação Cloud Practitioner.
               </p>
-
-              <h3 className="text-xl font-semibold mb-4 mt-8">
-                Meu Diferencial Técnico:
-              </h3>
-
-              <div className="space-y-4 mb-8">
-                <div>
-                  <h4 className="font-semibold text-base mb-2">
-                    Foco em Nuvem
-                  </h4>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    Preparando-me para a certificação AWS Solutions Architect –
-                    Associate, com foco em arquiteturas escaláveis, seguras e
-                    desacopladas.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold text-base mb-2">
-                    Neurodiversidade como Ativo
-                  </h4>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    Como autista diagnosticado, utilizo meu hiperfoco analítico
-                    e atenção rigorosa aos detalhes para garantir a integridade
-                    de sistemas complexos e otimização de processos em nuvem.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold text-base mb-2">Cultura Ágil</h4>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    Certificado em Scrum Fundamentals (SFC™), aplicando
-                    agilidade e organização em projetos de alto nível.
-                  </p>
-                </div>
-              </div>
-
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Meu objetivo não é apenas escrever código, mas projetar
-                infraestruturas sólidas e resilientes que sustentem o
-                crescimento do negócio.
+              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                Meu objetivo é ter uma primeira oportunidade para não apenas
+                criar software, mas arquitetar soluções preparadas para a nuvem
+                e Inteligência Artificial.
+              </p>
+              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                Sou muito comunicativa, adoro trabalhar em equipe, construir
+                soluções aos desafios.
               </p>
 
               <div className="flex items-center gap-2 text-muted-foreground mt-8">
@@ -74,8 +44,8 @@ export default function AboutSection() {
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-primary/20 to-primary/5 rounded-2xl overflow-hidden flex items-center justify-center">
                 <img
-                  src="/minhaFoto.jpg"
-                  alt="Gabriel"
+                  src="/images/FotoDeFernanda.jpeg"
+                  alt="Fernanda Ferreira"
                   className="w-full h-full object-cover"
                 />
               </div>

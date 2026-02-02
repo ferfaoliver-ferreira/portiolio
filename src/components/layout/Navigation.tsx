@@ -51,7 +51,7 @@ export default function Navigation({ activeSection }: NavigationProps) {
             onClick={() => handleSectionClick("inicio")}
             className="text-xl font-bold text-primary hover:text-primary/80 transition-colors"
           >
-            Gabriel Falcão
+            Fernanda Ferreira
           </button>
 
           {/* Desktop Navigation */}
@@ -84,7 +84,7 @@ export default function Navigation({ activeSection }: NavigationProps) {
             <ThemeToggle />
             <Button variant="ghost" size="sm" asChild>
               <a
-                href="https://www.linkedin.com/in/gabrielfalcaodev/"
+                href="https://www.linkedin.com/in/fernanda-f-oliveira-awsservices/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-700 dark:text-slate-300 hover:text-slate-900 hover:bg-slate-200 dark:hover:text-white dark:hover:bg-slate-700 transition-colors"
@@ -94,7 +94,7 @@ export default function Navigation({ activeSection }: NavigationProps) {
             </Button>
             <Button variant="ghost" size="sm" asChild>
               <a
-                href="https://github.com/GabrielF0900"
+                href="https://github.com/ferfaoliver-ferreira"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-700 dark:text-slate-300 hover:text-slate-900 hover:bg-slate-200 dark:hover:text-white dark:hover:bg-slate-700 transition-colors"
@@ -148,7 +148,7 @@ export default function Navigation({ activeSection }: NavigationProps) {
                 <ThemeToggle />
                 <Button variant="ghost" size="sm" asChild>
                   <a
-                    href="https://www.linkedin.com/in/gabrielfalcaodev/"
+                    href="https://www.linkedin.com/in/fernanda-f-oliveira-awsservices/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-700 dark:text-slate-300 hover:text-slate-900 hover:bg-slate-200 dark:hover:text-white dark:hover:bg-slate-700 transition-colors"
@@ -158,7 +158,7 @@ export default function Navigation({ activeSection }: NavigationProps) {
                 </Button>
                 <Button variant="ghost" size="sm" asChild>
                   <a
-                    href="https://github.com/GabrielF0900"
+                    href="https://github.com/ferfaoliver-ferreira"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-slate-700 dark:text-slate-300 hover:text-slate-900 hover:bg-slate-200 dark:hover:text-white dark:hover:bg-slate-700 transition-colors"

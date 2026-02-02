@@ -31,7 +31,7 @@ export default function CTASection() {
               asChild
             >
               <a
-                href="https://www.linkedin.com/in/gabrielfalcaodev/"
+                href="https://www.linkedin.com/in/fernanda-f-oliveira-awsservices/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -46,7 +46,7 @@ export default function CTASection() {
               asChild
             >
               <a
-                href="https://github.com/GabrielF0900"
+                href="https://github.com/ferfaoliver-ferreira"
                 target="_blank"
                 rel="noopener noreferrer"
               >

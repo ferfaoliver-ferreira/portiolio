@@ -41,26 +41,27 @@ export default function ExperienceSection() {
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
                     <div>
                       <CardTitle className="text-xl text-primary">
-                        Fundador e Programador Full Stack
+                        Fundadora da Clínica Alpha Fisio
                       </CardTitle>
-                      <h3 className="text-lg font-semibold mt-1">Neukox</h3>
                     </div>
                     <div className="flex flex-col md:items-end">
                       <Badge variant="secondary" className="w-fit">
-                        2025 - Presente
+                        2007 - 2025
                       </Badge>
                       <span className="text-sm text-muted-foreground mt-1">
-                        7 meses
+                        19 anos
                       </span>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-base mb-4">
-                    Como fundador da Neukox, lidero o desenvolvimento técnico e
-                    a visão estratégica da organização. Responsável por toda a
-                    arquitetura de software e desenvolvimento de soluções
-                    inovadoras.
+                    Sou fundadora da Clínica Alpha Fisio, um projeto que liderei
+                    com dedicação por 19 anos, entre 2007 e 2025. Durante quase
+                    duas décadas, fui a responsável direta pela visão
+                    estratégica e pela gestão integral da organização,
+                    garantindo não apenas a excelência no atendimento técnico,
+                    mas também a sustentabilidade e o crescimento do negócio.
                   </CardDescription>
 
                   <div className="space-y-4">
@@ -72,102 +73,28 @@ export default function ExperienceSection() {
                         <li className="flex items-start gap-2">
                           <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                           <span>
-                            Fundação e liderança técnica da organização Neukox
+                            Liderança e Gestão: Coordenação de equipes e
+                            processos internos para assegurar um padrão elevado
+                            de cuidado aos pacientes.
                           </span>
                         </li>
                         <li className="flex items-start gap-2">
                           <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                           <span>
-                            Desenvolvimento de aplicações web usando React,
-                            Node.js e TypeScript
+                            Desenvolvimento Organizacional: Implementação de
+                            soluções para otimizar a operação da clínica ao
+                            longo de 19 anos de mercado.
                           </span>
                         </li>
                         <li className="flex items-start gap-2">
                           <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                           <span>
-                            Arquitetura e implementação de sistemas escaláveis e
-                            APIs RESTful
-                          </span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                          <span>
-                            Gestão de equipe de desenvolvimento e definição de
-                            processos técnicos
-                          </span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                          <span>Tomada de decisões estratégicas</span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                          <span>
-                            Orquestração das atividades de desenvolvimento
+                            Estratégia de Negócio: Planejamento e execução de
+                            ações que consolidaram a Alpha Fisio como uma
+                            referência em sua área de atuação.
                           </span>
                         </li>
                       </ul>
-                    </div>
-
-                    <div>
-                      <h4 className="font-semibold mb-2">
-                        Principais Conquistas:
-                      </h4>
-                      <ul className="space-y-1 text-sm text-muted-foreground">
-                        <li className="flex items-start gap-2">
-                          <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span>
-                            Fundação e liderança técnica da organização Neukox
-                          </span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span>
-                            Foco em desenvolvimento de arquitetura com ênfase em
-                            escalabilidade e performance
-                          </span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span>
-                            Liderança de equipe que desenvolveu um sistema com
-                            capacidade de melhorar significativamente as
-                            resoluções de problemas
-                          </span>
-                        </li>
-                        <li className="flex items-start gap-2">
-                          <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                          <span>
-                            Estabelecimento de cultura de desenvolvimento ágil e
-                            qualidade de código melhorando então a capacidade de
-                            pensamento dos membros
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-
-                    <div className="flex flex-wrap gap-2 pt-2">
-                      <Badge variant="outline" className="text-xs">
-                        TypeScript
-                      </Badge>
-                      <Badge variant="outline" className="text-xs">
-                        React
-                      </Badge>
-                      <Badge variant="outline" className="text-xs">
-                        Tailwind CSS
-                      </Badge>
-                      <Badge variant="outline" className="text-xs">
-                        Node.js
-                      </Badge>
-                      <Badge variant="outline" className="text-xs">
-                        PostgreSQL
-                      </Badge>
-                      <Badge variant="outline" className="text-xs">
-                        Express
-                      </Badge>
-                      <Badge variant="outline" className="text-xs">
-                        Docker
-                      </Badge>
                     </div>
                   </div>
                 </CardContent>

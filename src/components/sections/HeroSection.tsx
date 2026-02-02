@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Github, Linkedin, Mail, Zap } from "lucide-react"
-import { useScrollToSection } from "../../hooks/useScroll"
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Github, Linkedin, Mail, Zap } from "lucide-react";
+import { useScrollToSection } from "../../hooks/useScroll";
 
 export default function HeroSection() {
-  const scrollToSection = useScrollToSection()
+  const scrollToSection = useScrollToSection();
 
   return (
     <section id="inicio" className="relative overflow-hidden pt-16">
@@ -18,20 +18,29 @@ export default function HeroSection() {
               Disponível para novos projetos
             </div>
             <h1 className="text-5xl lg:text-7xl font-bold tracking-tight mb-6">
-              Gabriel Falcão
-              <span className="block text-primary">da Cruz</span>
+              Fernanda Ferreira
             </h1>
             <p className="text-xl lg:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Desenvolvedor Full Stack apaixonado por criar experiências digitais excepcionais e soluções inovadoras.
+              Assistente Cloud & AWS Cloud Practitioner. Transformando
+              infraestrutura em possibilidades na nuvem.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="text-lg px-8" onClick={() => scrollToSection("projetos")}>
+            <Button
+              size="lg"
+              className="text-lg px-8"
+              onClick={() => scrollToSection("projetos")}
+            >
               Ver Projetos
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 bg-transparent" asChild>
+            <Button
+              variant="outline"
+              size="lg"
+              className="text-lg px-8 bg-transparent"
+              asChild
+            >
               <a href="mailto:gabriel@example.com">
                 <Mail className="w-5 h-5 mr-2" />
                 Entrar em Contato
@@ -42,7 +51,7 @@ export default function HeroSection() {
           <div className="flex justify-center gap-6">
             <Button variant="ghost" size="lg" asChild>
               <a
-                href="https://www.linkedin.com/in/gabrielfalcaodev/"
+                href="https://www.linkedin.com/in/fernanda-f-oliveira-awsservices/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary"
@@ -52,7 +61,7 @@ export default function HeroSection() {
             </Button>
             <Button variant="ghost" size="lg" asChild>
               <a
-                href="https://github.com/GabrielF0900"
+                href="https://github.com/ferfaoliver-ferreira"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary"
@@ -64,5 +73,5 @@ export default function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

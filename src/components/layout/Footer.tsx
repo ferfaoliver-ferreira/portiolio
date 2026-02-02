@@ -36,16 +36,16 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div>
               <h3 className="text-base font-bold text-slate-700 dark:text-slate-200 uppercase tracking-wider">
-                Gabriel Falcão da Cruz
+                Fernanda Oliveira
               </h3>
               <p className="text-sm text-slate-700 dark:text-slate-300 font-bold">
-                Desenvolvedor Full Stack
+                Soluções Cloud & AWS Cloud Practitioner
               </p>
             </div>
             <div className="flex gap-4">
               <Button variant="ghost" size="sm" asChild>
                 <a
-                  href="https://www.linkedin.com/in/gabrielfalcaodev/"
+                  href="https://www.linkedin.com/in/fernanda-f-oliveira-awsservices/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-slate-700 dark:text-slate-300 hover:text-slate-900 hover:bg-slate-200 dark:hover:text-white dark:hover:bg-slate-700 transition-colors"
@@ -55,7 +55,7 @@ export default function Footer() {
               </Button>
               <Button variant="ghost" size="sm" asChild>
                 <a
-                  href="https://github.com/GabrielF0900"
+                  href="https://github.com/ferfaoliver-ferreira"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-slate-700 dark:text-slate-300 hover:text-slate-900 hover:bg-slate-200 dark:hover:text-white dark:hover:bg-slate-700 transition-colors"
@@ -67,7 +67,7 @@ export default function Footer() {
           </div>
           <div className="border-t border-slate-200 dark:border-slate-700 mt-8 pt-8 text-center">
             <p className="text-sm text-slate-700 dark:text-slate-300 font-bold">
-              © 2025 Gabriel Falcão da Cruz. Todos os direitos reservados.
+              Fernanda Oliveira Todos os direitos reservados
             </p>
           </div>
         </div>

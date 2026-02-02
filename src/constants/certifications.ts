@@ -4,6 +4,7 @@ export interface Certification {
   issuer: string;
   status: "Certificado" | "Estudando" | "Em Breve" | "Próximo Objetivo";
   image: string;
+  type: "certificacao" | "certificado";
   examCode?: string;
   date?: string;
   credentialUrl?: string;
@@ -12,33 +13,32 @@ export interface Certification {
 
 export const certifications: Certification[] = [
   {
-    id: 3,
-    title: "Scrum Fundamentals Certified",
-    issuer: "Scrum Study",
-    status: "Certificado",
-    image: "/certification/scrumfundamentals.png",
-    date: "November 12, 2024",
-    credentialUrl:
-      "https://www.scrumstudy.com/certification/verify?type=SFC&number=1055958",
-  },
-  {
     id: 1,
     title: "AWS Certified Cloud Practitioner",
     issuer: "Amazon Web Services",
     status: "Estudando",
     image: "/certification/practitioner.png",
+    type: "certificacao",
     examCode: "CLF-C02",
-    statusMessage:
-      "Candidato em fase final de estudos (Voucher previsto para Fev/2026)",
+    date: "Fevereiro 2026",
+    statusMessage: "Prova prevista para Fevereiro - 2026",
   },
   {
     id: 2,
-    title: "AWS Certified Solutions Architect - Associate",
-    issuer: "Amazon Web Services",
-    status: "Próximo Objetivo",
-    image: "/certification/archtecht-associate.jpg",
-    examCode: "SAA-C03",
-    statusMessage:
-      "Planejado para iniciar após a conclusão da AWS Cloud Practitioner",
+    title: "Terraform Associate",
+    issuer: "HashiCorp",
+    status: "Em Breve",
+    image: "/certificates/terraform.png",
+    type: "certificado",
+    statusMessage: "Em breve",
+  },
+  {
+    id: 3,
+    title: "Próximo Certificado",
+    issuer: "-",
+    status: "Em Breve",
+    image: "/certificates/placeholder.png",
+    type: "certificado",
+    statusMessage: "Em breve",
   },
 ];
