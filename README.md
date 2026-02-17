@@ -19,7 +19,7 @@
 
 ## Sobre o Projeto
 
-Um portfolio moderno e responsivo que apresenta minha jornada como desenvolvedor Full Stack. Construído com foco em performance, acessibilidade e experiência do usuário, este projeto demonstra minhas habilidades técnicas através de uma interface elegante e funcional.
+Sou Fernanda Oliveira, Cloud Practitioner especializada em arquitetura e automação de soluções na AWS. Trabalho com infraestrutura como código, soluções serverless, segurança em nuvem e otimização de custos, entregando projetos escaláveis e observáveis que geram impacto real para usuários e negócios. Este portfólio reúne meus projetos, estudos de caso e demonstrações técnicas.
 
 ### ✨ Destaques
 
@@ -124,23 +124,64 @@ Portfolio_Profissional/
 
 ## Projetos em Destaque
 
-### � LoginFull
-> Sistema completo de autenticação com JWT e controle de acesso baseado em papéis
+### 📘 E-book — Cuidados Pós-Operatórios (Infoproduto)
+> Validação de um infoproduto técnico usando IA generativa para transformar conhecimento clínico em conteúdo comercializável.
 
-**Stack**: React · TypeScript · PostgreSQL · Prisma  
-**Repositório**: [GabrielF0900/LoginFull](https://github.com/GabrielF0900/LoginFull)
+**Stack**: IA Generativa · Engenharia de Prompt · Curadoria de Conteúdo · Hotmart  
+**Status**: Concluído  
+**Links**: (demo / repositório / case study — em breve)
 
-### 📚 Sistema de Gerenciamento de TCC
-> Plataforma para acompanhamento de TCCs com algoritmo exclusivo de progresso
+### 🛡️ CityShield — Segurança Urbana Inteligente
+> Plataforma de monitoramento e resposta automatizada para cidades inteligentes, com processamento de vídeo e análise por IA.
 
-**Stack**: TypeScript · Prisma · PostgreSQL · React · Express  
-**Repositório**: [Sistema_De_Gerenciamento_De_TCC](https://github.com/Neukox/Sistema_De_Gerenciamento_De_TCC)
+**Stack**: AWS Lambda · Amazon Bedrock · Kinesis · Rekognition · GuardDuty · DynamoDB · S3  
+**Status**: Em Andamento  
+**Links**: (repositório / case study — em breve)
 
-### 🎫 Sistema de Gerenciamento de Chamados
-> Sistema colaborativo para gestão eficiente de tickets e suporte
+### 🔧 Provisionamento VPC & EC2
+> Arquitetura de rede isolada na AWS com deploy de instância EC2 demonstrando controle de tráfego e isolamento.
 
-**Stack**: React Native · Node.js · MongoDB · Socket.io  
-**Repositório**: [Sistema_De_Gerenciamento_De_Chamados](https://github.com/Neukox/Sistema_De_Gerenciamento_De_Chamados)
+**Stack**: Amazon VPC · EC2 · Security Groups · Subnets · Route Tables  
+**Status**: Concluído  
+**Links**: (detalhes do projeto no repositório)
+
+### 🔒 Bastion Host — Acesso Seguro
+> Implementação de Bastion Host e políticas IAM para acesso SSH seguro via EC2 Instance Connect.
+
+**Stack**: EC2 · Bastion Host · IAM · Security Groups · SSH  
+**Status**: Concluído
+
+### 🔐 Gestão de Identidade e Acesso (IAM)
+> Criação de usuários, grupos e políticas customizadas aplicando o princípio do menor privilégio.
+
+**Stack**: AWS IAM · Policies · AWS Organizations  
+**Status**: Concluído
+
+### ⚙️ Infraestrutura Escalável e Alta Disponibilidade
+> Arquitetura com Auto Scaling, Application Load Balancer e implantação multi-AZ para resiliência.
+
+**Stack**: EC2 · Auto Scaling Group · ALB · CloudWatch · SNS  
+**Status**: Concluído
+
+### 🧩 Processamento Serverless de Arquivos
+> Pipeline serverless que processa arquivos enviados ao S3 com AWS Lambda e persiste metadados no DynamoDB.
+
+**Stack**: Lambda · S3 · DynamoDB · Python  
+**Status**: Concluído
+
+### 📜 Infraestrutura como Código (CloudFormation)
+> Templates YAML para provisionamento determinístico de infraestrutura (VPC, EC2, stacks relacionados).
+
+**Stack**: AWS CloudFormation · YAML · IaC  
+**Status**: Concluído
+
+### 📂 Armazenamento Compartilhado (Amazon EFS)
+> Implementação de EFS para acesso compartilhado entre múltiplas instâncias EC2 com alta disponibilidade.
+
+**Stack**: Amazon EFS · EC2 · NFS  
+**Status**: Concluído
+
+_Observação_: links e repositórios específicos estão disponíveis no código do projeto (`src/constants/projects.ts`) e serão adicionados ao README assim que forem publicados.
 
 ## Scripts Disponíveis
 
