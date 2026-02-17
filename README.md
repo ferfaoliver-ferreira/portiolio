@@ -1,12 +1,12 @@
-# Portfolio Profissional - Gabriel Falcão da Cruz
+# Portfolio Profissional - Fernanda Oliveira
 
 <div align="center">
 
-![Portfolio Banner](https://via.placeholder.com/800x200/1a1a1a/ffffff?text=Portfolio+Gabriel+Falc%C3%A3o)
+![Portfolio Banner](https://via.placeholder.com/800x200/1a1a1a/ffffff?text=Portfolio+Fernanda+Oliveira)
 
-**Desenvolvedor Full Stack | Criando experiências digitais excepcionais**
+**Cloud Practitioner | Criando soluções em nuvem e experiências digitais**
 
-[🌐 Ver Portfolio](https://portfolio-profissional-omega.vercel.app/) · [📧 Contato](mailto:gabriel@example.com) · [💼 LinkedIn](https://www.linkedin.com/in/gabrielfalcaodev/)
+[🌐 Ver Portfolio](https://portfolio-profissional-omega.vercel.app/) · [📧 Contato](mailto:fernanda@example.com) · [💼 LinkedIn](https://www.linkedin.com/in/fernanda-oliveira/)
 
 ---
 
@@ -80,8 +80,8 @@ Um portfolio moderno e responsivo que apresenta minha jornada como desenvolvedor
 
 ```bash
 # Clone o repositório
-git clone https://github.com/GabrielF0900/Portfolio_Profissional.git
-cd Portfolio_Profissional
+git clone https://github.com/<usuario>/Portfolio_De_Fernanda.git
+cd Portfolio_De_Fernanda
 
 # Instale as dependências
 pnpm install
@@ -167,12 +167,12 @@ Portfolio_Profissional/
 
 <div align="center">
 
-**Gabriel Falcão da Cruz**  
-*Desenvolvedor Full Stack*
+**Fernanda Oliveira**  
+*Cloud Practitioner*
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielfalcaodev/)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/GabrielF0900)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:gabriel@example.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernanda-oliveira/)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/<usuario>)
+[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:fernanda@example.com)
 
 ---
 
