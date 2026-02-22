@@ -44,7 +44,7 @@ export const certifications: Certification[] = [
     status: "Certificado",
     image: "/certification/aws_todos.jpeg",
     type: "certificado",
-    date: "2025",
+    date: "05 de fevereiro de 2026",
     credentialUrl:
       "https://onedrive.live.com/?id=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas%2FCertificado%20Fundamentos%20Machine%20Learning%20e%20IA%2Epdf&listurl=%2Fpersonal%2F3806ae2109426ad6%2FDocuments&parent=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas",
   },
@@ -55,7 +55,7 @@ export const certifications: Certification[] = [
     status: "Certificado",
     image: "/certification/aws_todos.jpeg",
     type: "certificado",
-    date: "2025",
+    date: "06 de fevereiro de 2026",
     credentialUrl:
       "https://onedrive.live.com/?listurl=%2Fpersonal%2F3806ae2109426ad6%2FDocuments&viewid=dd4e9ec1%2Ddf4e%2D4ca6%2Dbf1a%2D971f44128776&id=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas%2FCertif%2E%20AWS%20Developer%20Machine%20Learning%2Epdf&parent=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas",
   },
@@ -66,7 +66,7 @@ export const certifications: Certification[] = [
     status: "Certificado",
     image: "/certification/aws_todos.jpeg",
     type: "certificado",
-    date: "2025",
+    date: "09 de fevereiro de 2026",
     credentialUrl:
       "https://onedrive.live.com/?listurl=%2Fpersonal%2F3806ae2109426ad6%2FDocuments&id=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas%2FCertif%2E%20AWS%20Engenharia%20de%20Prompts%20IA%2Epdf&parent=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas&viewid=dd4e9ec1%2Ddf4e%2D4ca6%2Dbf1a%2D971f44128776",
   },
@@ -78,7 +78,7 @@ export const certifications: Certification[] = [
     status: "Certificado",
     image: "/certification/aws_todos.jpeg",
     type: "certificado",
-    date: "2025",
+    date: "06 de fevereiro de 2026",
     credentialUrl:
       "https://onedrive.live.com/?listurl=%2Fpersonal%2F3806ae2109426ad6%2FDocuments&id=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas%2FCertif%2E%20AWS%20Explorando%20o%20uso%20da%20intelig%C3%AAncia%20artificial%2Epdf&parent=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas&viewid=dd4e9ec1%2Ddf4e%2D4ca6%2Dbf1a%2D971f44128776",
   },
@@ -89,7 +89,7 @@ export const certifications: Certification[] = [
     status: "Certificado",
     image: "/certification/aws_todos.jpeg",
     type: "certificado",
-    date: "2025",
+    date: "06 de fevereiro de 2026",
     credentialUrl:
       "https://onedrive.live.com/?listurl=%2Fpersonal%2F3806ae2109426ad6%2FDocuments&id=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas%2FCertif%2E%20AWS%20Pr%C3%A1ticas%20Respons%C3%A1veis%20em%20IA%2Epdf&parent=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas&viewid=dd4e9ec1%2Ddf4e%2D4ca6%2Dbf1a%2D971f44128776",
   },
@@ -100,7 +100,7 @@ export const certifications: Certification[] = [
     status: "Certificado",
     image: "/certification/aws_todos.jpeg",
     type: "certificado",
-    date: "2025",
+    date: "07 de fevereiro de 2026",
     credentialUrl:
       "https://onedrive.live.com/?listurl=%2Fpersonal%2F3806ae2109426ad6%2FDocuments&id=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas%2FCertif%2E%20AWS%20Seguran%C3%A7a%20e%20Governan%C3%A7a%20em%20IA%2Epdf&parent=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas&viewid=dd4e9ec1%2Ddf4e%2D4ca6%2Dbf1a%2D971f44128776",
   },
@@ -111,9 +111,9 @@ export const certifications: Certification[] = [
     status: "Certificado",
     image: "/certification/aws_todos.jpeg",
     type: "certificado",
-    date: "2025",
+    date: "10 de fevereiro de 2026",
     credentialUrl:
-      "https://onedrive.live.com/?listurl=%2Fpersonal%2F3806ae2109426ad6%2FDocuments&id=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas%2FCertif%2E%20Machine%20Learning%20No%2Dcodee%20IA%20Generativa%2Epdf&parent=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas&viewid=dd4e9ec1%2Ddf4e%2D4ca6%2Dbf1a%2D971f44128776",
+      "https://1drv.ms/b/c/3806ae2109426ad6/IQDwvKJNLi8rTLtvtY7TTC2vAVd0nNJDWRkuxfdITfXiQwY",
   },
   {
     id: 9,
@@ -122,7 +122,7 @@ export const certifications: Certification[] = [
     status: "Certificado",
     image: "/certification/aws_todos.jpeg",
     type: "certificado",
-    date: "2025",
+    date: "10 de fevereiro de 2026",
     credentialUrl:
       "https://onedrive.live.com/?listurl=%2Fpersonal%2F3806ae2109426ad6%2FDocuments&viewid=dd4e9ec1%2Ddf4e%2D4ca6%2Dbf1a%2D971f44128776&id=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas%2FCertif%2E%20A%20arte%20do%20poss%C3%ADvel%20IA%20Generativa%2Epdf&parent=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas",
   },
@@ -134,7 +134,7 @@ export const certifications: Certification[] = [
     status: "Certificado",
     image: "/certification/aws_todos.jpeg",
     type: "certificado",
-    date: "2025",
+    date: "06 de fevereiro de 2026",
     credentialUrl:
       "https://onedrive.live.com/?listurl=%2Fpersonal%2F3806ae2109426ad6%2FDocuments&id=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas%2FCertif%2E%20AWS%20Developer%20IA%2Epdf&parent=%2Fpersonal%2F3806ae2109426ad6%2FDocuments%2FCertificados%20e%20Diplomas&viewid=dd4e9ec1%2Ddf4e%2D4ca6%2Dbf1a%2D971f44128776",
   },
