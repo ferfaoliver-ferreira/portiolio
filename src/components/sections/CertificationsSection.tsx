@@ -46,6 +46,9 @@ export default function CertificationsSection() {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
               {[...certifications]
                 .sort((a, b) => {
+                  const pa = a.priority ?? 999;
+                  const pb = b.priority ?? 999;
+                  if (pa !== pb) return pa - pb;
                   if (a.type === "certificacao" && b.type !== "certificacao")
                     return -1;
                   if (a.type !== "certificacao" && b.type === "certificacao")

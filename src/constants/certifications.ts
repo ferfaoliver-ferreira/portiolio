@@ -9,9 +9,22 @@
   date?: string;
   credentialUrl?: string;
   statusMessage?: string;
+  priority?: number;
 }
 
 export const certifications: Certification[] = [
+  {
+    id: 11,
+    title: "AWS re/Start Graduate",
+    issuer: "Amazon Web Services",
+    status: "Certificado",
+    image: "/Imagens dos Cetificados de Fernanda/awsrestart.jpeg",
+    type: "certificado",
+    date: "15 de fevereiro de 2026",
+    credentialUrl:
+      "https://www.credly.com/badges/4c5b8004c38a-452e-8f15-4c26fe59daec/public_url",
+    priority: 1,
+  },
   {
     id: 1,
     title: "AWS Certified Cloud Practitioner",
@@ -22,6 +35,7 @@ export const certifications: Certification[] = [
     examCode: "CLF-C02",
     date: "Fevereiro 2026",
     statusMessage: "Prova prevista para Fevereiro - 2026",
+    priority: 2,
   },
   {
     id: 2,
