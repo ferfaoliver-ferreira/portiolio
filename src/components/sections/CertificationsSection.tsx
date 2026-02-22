@@ -48,6 +48,16 @@ export default function CertificationsSection() {
     return isNaN(iso) ? 0 : iso;
   };
 
+  const formatDate = (d?: string) => {
+    const ts = parseDateString(d);
+    if (!ts) return d ?? "";
+    const dateObj = new Date(ts);
+    const dd = String(dateObj.getDate()).padStart(2, "0");
+    const mm = String(dateObj.getMonth() + 1).padStart(2, "0");
+    const yyyy = dateObj.getFullYear();
+    return `${dd}/${mm}/${yyyy}`;
+  };
+
   const certSort = (a: any, b: any) => {
     const pa = a.priority ?? 999;
     const pb = b.priority ?? 999;
@@ -143,6 +153,11 @@ export default function CertificationsSection() {
                             {cert.statusMessage}
                           </p>
                         )}
+                        {cert.date && (
+                          <p className="text-xs text-gray-500 mt-2">
+                            Emissão: {formatDate(cert.date)}
+                          </p>
+                        )}
                         <div className="mt-auto pt-3">
                           <span
                             className={`inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium border ${
@@ -158,11 +173,6 @@ export default function CertificationsSection() {
                             {cert.status}
                           </span>
                         </div>
-                        {cert.date && (
-                          <p className="text-xs text-gray-500 mt-2">
-                            {cert.date}
-                          </p>
-                        )}
                         {cert.credentialUrl && (
                           <Button
                             variant="outline"
@@ -259,7 +269,7 @@ export default function CertificationsSection() {
                           </div>
                           {cert.date && (
                             <p className="text-xs text-gray-500 mt-2">
-                              {cert.date}
+                              Emissão: {formatDate(cert.date)}
                             </p>
                           )}
                           {cert.credentialUrl && (
@@ -356,7 +366,7 @@ export default function CertificationsSection() {
                           </div>
                           {cert.date && (
                             <p className="text-xs text-gray-500 mt-2">
-                              {cert.date}
+                              Emissão: {formatDate(cert.date)}
                             </p>
                           )}
                           {cert.credentialUrl && (

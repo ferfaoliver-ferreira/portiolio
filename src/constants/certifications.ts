@@ -33,7 +33,7 @@ export const certifications: Certification[] = [
     image: "/certification/practitioner.png",
     type: "certificacao",
     examCode: "CLF-C02",
-    date: "Fevereiro 2026",
+    date: "Esse Mês",
     statusMessage: "Prova prevista para Fevereiro - 2026",
     priority: 2,
   },
