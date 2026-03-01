@@ -34,7 +34,8 @@ export const certifications: Certification[] = [
     type: "certificacao",
     examCode: "CLF-C02",
     date: "27 de fevereiro de 2026",
-    credentialUrl: "https://www.credly.com/badges/57e9ddc6-a12b-4e3d-ac6b-198c6624d210",
+    credentialUrl:
+      "https://www.credly.com/badges/57e9ddc6-a12b-4e3d-ac6b-198c6624d210",
     priority: 2,
   },
   {
